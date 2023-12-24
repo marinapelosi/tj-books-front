@@ -1,19 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import { useRouter } from 'next/router';
-import Card from '@mui/material/Card';
-import Grid from '@mui/material/Grid';
-import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
-import CardHeader from '@mui/material/CardHeader';
-import CardContent from '@mui/material/CardContent';
-import InputAdornment from '@mui/material/InputAdornment';
-import AccountOutline from 'mdi-material-ui/AccountOutline';
-import TrashCan from 'mdi-material-ui/TrashCan';
-import axios from 'axios';
-import { toast } from 'react-toastify';
-import Swal from 'sweetalert2';
-import 'sweetalert2/dist/sweetalert2.min.css';
-
+import React, { useState, useEffect } from 'react'
+import { useRouter } from 'next/router'
+import Card from '@mui/material/Card'
+import Grid from '@mui/material/Grid'
+import Button from '@mui/material/Button'
+import TextField from '@mui/material/TextField'
+import CardHeader from '@mui/material/CardHeader'
+import CardContent from '@mui/material/CardContent'
+import InputAdornment from '@mui/material/InputAdornment'
+import TrashCan from 'mdi-material-ui/TrashCan'
+import axios from 'axios'
+import { toast } from 'react-toastify'
+import Swal from 'sweetalert2'
+import 'sweetalert2/dist/sweetalert2.min.css'
+import TagOutline from 'mdi-material-ui/TagOutline'
 const SubjectForm = () => {
   const router = useRouter();
   const { id } = router.query;
@@ -108,7 +107,7 @@ const SubjectForm = () => {
                 InputProps={{
                   startAdornment: (
                     <InputAdornment position='start'>
-                      <AccountOutline />
+                      <TagOutline />
                     </InputAdornment>
                   ),
                 }}
