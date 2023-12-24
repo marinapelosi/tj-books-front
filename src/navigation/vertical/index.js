@@ -1,12 +1,8 @@
-// ** Icon imports
-import Login from 'mdi-material-ui/Login'
-import Table from 'mdi-material-ui/Table'
+
 import {
-  HomeOutline, CubeOutline, ChartBoxOutline,
-  Account, FormatLetterCase, BookOutline,
-  CreditCardOutline, TagOutline, AlertCircleOutline,
-  GoogleCirclesExtended
-} from "mdi-material-ui";
+  HomeOutline, ChartBoxOutline,
+  Account, BookOutline,
+  TagOutline} from "mdi-material-ui";
 
 const navigation = () => {
   return [

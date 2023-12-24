@@ -15,7 +15,7 @@ Certifique-se de ter o Node.js e o npm instalados em seu sistema antes de prosse
 1. Clone o repositório em sua máquina:
 
    ```bash
-   git@github.com:marinapelosi/tj-books-front.git
+   git clone git@github.com:marinapelosi/tj-books-front.git
 
 2. Acesse o diretório:
 
