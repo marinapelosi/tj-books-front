@@ -5,7 +5,7 @@ import CubeOutline from 'mdi-material-ui/CubeOutline'
 import HomeOutline from 'mdi-material-ui/HomeOutline'
 import Account from 'mdi-material-ui/Account'
 import FormatLetterCase from 'mdi-material-ui/FormatLetterCase'
-import AccountCogOutline from 'mdi-material-ui/AccountCogOutline'
+import BookOutline from 'mdi-material-ui/BookOutline'
 import CreditCardOutline from 'mdi-material-ui/CreditCardOutline'
 import TagOutline from 'mdi-material-ui/TagOutline'
 import AlertCircleOutline from 'mdi-material-ui/AlertCircleOutline'
@@ -27,6 +27,11 @@ const navigation = () => {
       title: 'Assuntos',
       icon: TagOutline,
       path: '/subjects'
+    },
+    {
+      title: 'Livros',
+      icon: BookOutline,
+      path: '/books'
     },
     {
       sectionTitle: 'Pages'
