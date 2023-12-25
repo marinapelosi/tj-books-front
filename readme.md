@@ -57,6 +57,8 @@ Certifique-se de ter o Node.js e o npm instalados em seu sistema antes de prosse
    npm run dev
 
 7. Depois de levantar o ambiente, basta acessar a URL no navegador. 
+
+> Por padrão npm, a url é http://localhost:3000
 ----
 
 ## Documentação Técnica
