@@ -1,5 +1,7 @@
 # TJ BOOKS - App Front
 
+Para acessar a documentação do Back, [clique aqui](https://github.com/marinapelosi/tj-books-api).
+
 ## Sumário
 - Introdução
 - Requisitos
